@@ -9,7 +9,7 @@ public class ReadFile {
       private  int nH,nL,conductivity,speecificHeat,density,alfa,ambientTemp,initialTemp,simulationTime,simulationStepTime;
 
     public ReadFile() throws FileNotFoundException {
-        File file=new File("date2.txt");
+        File file=new File("data2.txt");
         Scanner scanner=new Scanner(file);
         this.H=scanner.nextDouble();
         this.L=scanner.nextDouble();
